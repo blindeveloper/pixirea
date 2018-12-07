@@ -1,6 +1,6 @@
 import { combineReducers } from 'redux'
-import swimmersListReducer from './modules/swimmers/reducers/swimmers.list.reducer'
+import playerReducer from './modules/player/reducers/player.reducer'
 
 export default combineReducers({
-  swimmersListReducer
+  playerReducer
 })

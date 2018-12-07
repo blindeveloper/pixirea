@@ -1,6 +1,6 @@
 import {loader} from 'pixi.js'
-import Setup from '../setup'
-import {loadProgressHandler, createProject} from '../utils'
+import Setup from './setup'
+import {loadProgressHandler, createProject} from './utils'
 
 const PixiApp = () => {
   let app = createProject()
